@@ -1,9 +1,88 @@
 /*RESET*/
-*{ 
-    padding: 0;
+* {
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
+body {
+    width: 1280px;
+    font-family: 'Montserrat', sans-serif;
+}
 
 
+#container {
+    width: 1000px;
+    margin: auto;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.colonna_sx {
+    float: left;
+    width: 20%;
+    margin: auto;
+    text-align: center;
+}
+
+.colonna_dx {
+    float: left;
+    width: 20%;
+    margin: auto;
+    text-align: center;
+}
+
+.colonna_centrale {
+    float: left;
+    width: 60%;
+    text-align: center;
+}
+
+/*HEADER*/
+header{
+    background-color: blue;
+}
+
+a{
+    display: inline-block;
+    margin-top: 25px;
+    color: white;
+    text-decoration:none;
+    padding-right: 30px;
+    height: 50px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.logo{
+    line-height: 50px;
+    text-align: center;
+    margin-top: 20px;
+    margin-right: 40px;
+}
+
+.main_button{
+    background-color: white;
+    color: black;
+    padding: 5px 10px 5px 10px;
+    border-radius: 15px;
+    text-align: right;
+    margin-left: 135px;
+    margin-top: 20px;
+}
+
+.header_img{
+    width: 1280px;
+    display: inline-block;
+    position: relative;
+}
+
+.testo{
+    width: 1000px;
+    display: inline-block;
+    position: absolute;
+}
